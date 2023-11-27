@@ -1,3 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .container1 {
   background-color: #1F2937;
 }
@@ -37,7 +42,7 @@
   width: 400px;
 }
 
-.sub-text {
+.subtext {
   margin: 10px 0px;
   font-size: 18px;
   color: #E5E7EB;
@@ -51,8 +56,7 @@
 }
 
 .button {
-  background-color: blue;
-  margin-right: 0;
+  background-color: #3882f6;
   width: 70px;
   text-align: center;
   padding: 8px;
@@ -71,4 +75,103 @@
   width: 100%;
 }
 
+.container2 {
+  background-color: lightblue;
+}
 
+.title2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.boxs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 20px;
+  padding: 0;
+}
+
+h2 {
+  margin: 5px;
+  margin-bottom: -5px;
+  padding: 0;
+}
+
+.info {
+  font-size: 18px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  padding: 50px;
+  align-items: center;
+}
+
+.quote-box {
+  width: 800px;
+}
+
+.signiture {
+  text-align: right;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  color: white;
+}
+
+.card {
+  width: 1000px;
+  height: 100px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.box-call {
+  display: block;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
+}
+
+.call {
+  font-size: 20px;
+  font-style: bold;
+}
+
+.button2 {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
